@@ -1,0 +1,24 @@
+*{box-sizing: border=box;}
+.maincontainer{
+    width: 800px;
+    background-color: aliceblue;
+    margin: 5em auto;
+    padding: 2 em;
+}
+.apptitle{text-align: center;}
+.dolistform{margin-top: 2em;}
+.formgroup{margin-top: 2em;}
+.todo{padding: 0.5 em; border-radius: 5px; border:solid gray 1px;}
+.btnadd{background-color: crimson; 
+    border: none; 
+    padding: 0.5em; 
+    color: whitesmoke;
+}
+.btnadd{background-color: olive;}
+.btn_deleteall,.btndeleteeach{
+    background-color: crimson;
+} 
+.btn_deleteall:hover, .btndeleteeach:hover{
+    background-color: darkred;
+    font-weight: bolder;
+}
